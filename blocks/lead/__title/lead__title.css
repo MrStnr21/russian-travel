@@ -3,8 +3,14 @@
     padding-top: 56px;
     max-width: 720px;
     max-height: 200px;
+    font-weight: 900;
     font-size: 96px;
-    font-weight: bold;
     line-height: 100px;
     text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__title {
+        padding-top: 48px;
+    }
 }
