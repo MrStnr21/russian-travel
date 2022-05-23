@@ -2,3 +2,9 @@
     display: flex;
     column-gap: 18px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .nav__links {
+        row-gap: 32px;
+    }
+}
