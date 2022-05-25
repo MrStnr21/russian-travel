@@ -9,3 +9,5 @@
 - Адаптивная верстка;
 - Grid Layout;
 - Flex.
+
+Ссылка на pages [https://mrstnr21.github.io/russian-travel/]
