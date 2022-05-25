@@ -3,5 +3,6 @@
 }
 
 .link:hover {
+    transition: .3s;
     opacity: .5;
 }

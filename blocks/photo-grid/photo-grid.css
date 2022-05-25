@@ -3,14 +3,13 @@
     padding: 0;
     max-width: 1184px;
     display: grid;
-    grid-template-columns: repeat(4, 284px);
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .photo-grid {
         max-width: 928px;
-        grid-template-columns: repeat(3, 300px);
         gap: 14px;
     }
 }
@@ -19,7 +18,6 @@
     .photo-grid {
         margin: 0 auto 88px;
         max-width: 720px;
-        grid-template-columns: repeat(2, 352px);
     }
 }
 
@@ -27,7 +25,6 @@
     .photo-grid {
         margin: 0 auto 64px;
         max-width: 288px;
-        grid-template-columns: 288px;
         gap: 12px;
     }
 }
