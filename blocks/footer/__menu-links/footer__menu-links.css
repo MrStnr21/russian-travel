@@ -13,7 +13,10 @@
 
 @media screen and (max-width: 767px) {
   .footer__menu-links {
-      flex-direction: column;
-      row-gap: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    flex-direction: column;
+    row-gap: 32px;
   }
 }
